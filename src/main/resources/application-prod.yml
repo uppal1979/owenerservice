@@ -1,0 +1,12 @@
+
+server:
+  port: 8001
+
+spring:
+  application:
+    name: veterinarian_service
+  datasource:
+    #url: jdbc:mysql://localhost/petclinic
+    url: jdbc:mysql://localhost/petclinic_ms_vet
+    username: root
+    password: root1234
